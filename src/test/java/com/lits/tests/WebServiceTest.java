@@ -1,6 +1,7 @@
 package com.lits.tests;
 
 import com.lits.helper.EnvProps;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -12,6 +13,11 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 
 public class WebServiceTest {
+
+    @BeforeMethod
+    public void before() {
+        RestAssured.filters(new AllureRestAssured());
+    }
 
     private EnvProps envProps = new EnvProps();
 
