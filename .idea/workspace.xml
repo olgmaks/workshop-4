@@ -81,7 +81,6 @@
       <change afterPath="$PROJECT_DIR$/../../../Lesson 22 - Page Object and Page Factory/Practice/ringrollsdencity/src/test/java/com/ring/rolls/DencityTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appium/src/test/java/com/appium/TestMobileWeb.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/RestAssuredExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/primitivetypes/PrimitiveTypes1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/primitivetypes/PrimitiveTypes1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial2.java" afterDir="false" />
@@ -125,9 +124,7 @@
       <change beforePath="$PROJECT_DIR$/../web-services-testing/src/main/java/httpclient/RestAssuredHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-services-testing/src/main/java/httpclient/RestAssuredHttpClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -185,15 +182,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+            <state relative-caret-position="106">
+              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testng.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-testng/2.12.0/allure-testng-2.12.0.jar!/io/qameta/allure/testng/AllureTestNg.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -332,6 +342,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.qameta.allure:allure-testng:2.12.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.qameta.allure:allure-testng:2.12.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="allure-testng-2.12.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.qameta.allure:allure-testng:2.12.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="allure-testng-2.12.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -339,7 +371,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567247864432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567247887398" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -473,7 +505,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18233387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3119935" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="SonarLint" />
@@ -580,13 +612,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        <state relative-caret-position="106">
+          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/qameta/allure/allure-testng/2.12.0/allure-testng-2.12.0.jar!/io/qameta/allure/testng/AllureTestNg.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
