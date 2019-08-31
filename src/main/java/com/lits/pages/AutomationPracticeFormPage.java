@@ -2,6 +2,7 @@ package com.lits.pages;
 
 import com.lits.common.AbstractPage;
 import com.lits.common.WebDriverContext;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -24,14 +25,17 @@ public class AutomationPracticeFormPage extends AbstractPage {
     @FindBy(xpath = "//*[@id='NextedText']/span")
     private WebElement textLabel;
 
+    @Step("Typing first name [{name}] ")
     public void setFirstName(final String name) {
         firstNameInput.sendKeys(name);
     }
 
+    @Step("Typing last name [{lastName}] ")
     public void setLastName(String lastName) {
         lastNameInput.sendKeys(lastName);
     }
 
+    @Step("Select set [{sex}] ")
     public void selectSex(String sex) {
         WebElement element;
         if ("male".equalsIgnoreCase(sex))
@@ -47,18 +51,22 @@ public class AutomationPracticeFormPage extends AbstractPage {
         element.click();
     }
 
+    @Step("Select Experience [{yesar}] ")
     public void selectExperience(int yesar) {
         WebDriverContext.getDriver().findElement(By.id("exp-" + yesar)).click();
     }
 
+    @Step("Check Manual")
     public void checkManual() {
         professionManual.click();
     }
 
+    @Step("Check Automation")
     public void checkAutomation() {
         professionAutomation.click();
     }
 
+    @Step("Accept cookies banner")
     public void acceptCookies() {
         WebDriverContext
                 .getDriver()

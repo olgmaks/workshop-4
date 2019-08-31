@@ -8,7 +8,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lits/common/WebDriverContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/lits/helper/ScreenshotSupport.java">
           <value>
             <set />
           </value>
@@ -29,6 +39,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/lits/tests/listener/LogListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/surefire-reports/Regression/Api.html">
           <value>
             <set />
           </value>

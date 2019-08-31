@@ -1,6 +1,9 @@
 package com.lits.common;
 
+import com.lits.helper.ScreenshotSupport;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -31,5 +34,10 @@ public class WebDriverContext {
     public static void stop() {
         getDriver().quit();
         webDriver = null;
+    }
+
+    public static void captureScreen() {
+        byte[] bytes = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
+        new ScreenshotSupport().saveScreenshot(bytes);
     }
 }
