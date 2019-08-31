@@ -2,6 +2,7 @@ package com.lits.tests;
 
 import com.lits.common.WebDriverContext;
 import com.lits.pages.AutomationPracticeFormPage;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
@@ -21,6 +22,8 @@ public class ExampleTest {
         automationPracticeFormPage.selectExperience(5);
         automationPracticeFormPage.checkManual();
         automationPracticeFormPage.checkAutomation();
+
+        Assert.assertEquals(automationPracticeFormPage.getTextLabelText(), "Text1");
     }
 
 

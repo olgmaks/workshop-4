@@ -21,6 +21,8 @@ public class AutomationPracticeFormPage extends AbstractPage {
     private WebElement professionAutomation;
     @FindBy(id = "profession-0")
     private WebElement professionManual;
+    @FindBy(xpath = "//*[@id='NextedText']/span")
+    private WebElement textLabel;
 
     public void setFirstName(final String name) {
         firstNameInput.sendKeys(name);
@@ -62,5 +64,9 @@ public class AutomationPracticeFormPage extends AbstractPage {
                 .getDriver()
                 .findElement(By.id("cookie_action_close_header"))
                 .click();
+    }
+
+    public String getTextLabelText () {
+        return textLabel.getText();
     }
 }
