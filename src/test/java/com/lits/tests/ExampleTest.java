@@ -23,7 +23,10 @@ public class ExampleTest {
         automationPracticeFormPage.checkManual();
         automationPracticeFormPage.checkAutomation();
 
-        Assert.assertEquals(automationPracticeFormPage.getTextLabelText(), "Text1");
+        Assert.assertEquals(
+                automationPracticeFormPage
+                        .getTextLabelText(),
+                "Text1");
     }
 
 
