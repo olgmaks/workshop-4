@@ -1,6 +1,7 @@
 package com.lits.tests;
 
 import com.lits.common.WebDriverContext;
+import com.lits.helper.EnvProps;
 import com.lits.pages.AutomationPracticeFormPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -8,10 +9,12 @@ import org.testng.annotations.Test;
 
 public class ExampleTest {
 
+    private EnvProps envProps = new EnvProps();
+
     @Test
     public void testSetFirstName() {
 
-        WebDriverContext.loadURL("http://toolsqa.com/automation-practice-form/");
+        WebDriverContext.loadURL(envProps.getWebSiteUrl());
 
         AutomationPracticeFormPage automationPracticeFormPage = new AutomationPracticeFormPage();
 

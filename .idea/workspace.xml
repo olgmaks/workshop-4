@@ -81,7 +81,6 @@
       <change afterPath="$PROJECT_DIR$/../../../Lesson 22 - Page Object and Page Factory/Practice/ringrollsdencity/src/test/java/com/ring/rolls/DencityTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appium/src/test/java/com/appium/TestMobileWeb.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/RestAssuredExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/primitivetypes/PrimitiveTypes1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/primitivetypes/PrimitiveTypes1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson 04-12 - Java/Lesson 05 - Primitive Types and Wrappers, String/Practice/primitive-types-wrappers-string/src/string/StringTutorial2.java" afterDir="false" />
@@ -126,8 +125,7 @@
       <change beforePath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../web-services-testing/src/test/java/test/restassure/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -172,8 +170,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="32">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#899#900#0" expanded="true" />
@@ -192,14 +190,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="398">
+              <caret line="32" column="101" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/env.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -222,9 +245,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lits/common/WebDriverContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lits/common/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lits/pages/AutomationPracticeFormPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/env.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java" />
       </list>
     </option>
   </component>
@@ -281,16 +306,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lits" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
               <item name="workshop4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lits" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workshop4" type="b2602c69:ProjectViewProjectNode" />
@@ -320,7 +343,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567244402383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567245117351" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -337,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.WebServiceTest.testGetCurrencyForDate">
+  <component name="RunManager" selected="TestNG.ExampleTest.testSetFirstName">
     <configuration name="ExampleTest.testSetFirstName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="workshop4" />
       <extension name="coverage">
@@ -394,9 +417,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExampleTest.testSetFirstName" />
         <item itemvalue="TestNG.WebServiceTest.testGetCurrencyForDate" />
         <item itemvalue="TestNG.WebServiceTest.testGetCurrencies" />
-        <item itemvalue="TestNG.ExampleTest.testSetFirstName" />
       </list>
     </recent_temporary>
   </component>
@@ -414,15 +437,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 11h 38m 46s.xml">
-      <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 11h 39m 01s.xml">
-      <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 11h 42m 02s.xml">
-      <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 11h 43m 15s.xml">
       <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
     </history-entry>
@@ -444,6 +458,15 @@
     <history-entry file="WebServiceTest_testGetCurrencyForDate - 2019.08.31 at 12h 36m 01s.xml">
       <configuration name="WebServiceTest.testGetCurrencyForDate" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="WebServiceTest_testGetCurrencyForDate - 2019.08.31 at 12h 37m 57s.xml">
+      <configuration name="WebServiceTest.testGetCurrencyForDate" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 12h 50m 56s.xml">
+      <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExampleTest_testSetFirstName - 2019.08.31 at 12h 52m 02s.xml">
+      <configuration name="ExampleTest.testSetFirstName" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="726" extended-state="0" />
@@ -454,7 +477,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18233387" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18233387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="SonarQube" />
       <window_info anchor="bottom" id="SonarLint" />
@@ -491,18 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/pages/AutomationPracticeFormPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -534,10 +545,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lits/tests/WebServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="398">
+          <caret line="32" column="101" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lits/tests/ExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lits/helper/EnvProps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
           </folding>
         </state>
       </provider>
